@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: elly
+  password: immortal
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: railsfront_development
+
+test:
+  <<: *default
+  database: railsfront_test
+
+production:
+  <<: *default
+  database: railsfront_production
+  username: railsfront
+  password: <%= ENV['RAILSFRONT_DATABASE_PASSWORD'] %>
