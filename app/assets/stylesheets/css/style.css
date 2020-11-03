@@ -4390,9 +4390,8 @@ b,del,sub,sup,u {
 }
 
 .generic-blockquote {
-    padding: 30px 50px 30px 30px;
-    background: #f9f9ff;
-    border-left: 2px solid #222
+  padding: 30px 50px 30px 30px;
+  background: #f9f9ff;
 }
 
 .progress-table-wrap {
@@ -5195,11 +5194,6 @@ b,del,sub,sup,u {
 
 .mt-10 {
     margin-top: 10px
-}
-
-.section-top-border {
-    padding: 50px 0;
-    border-top: 1px dotted #eee
 }
 
 .mb-30 {
@@ -6197,29 +6191,37 @@ z .slider-area .hero-cap h2 {
 }
 
 .our-customer .single-customer .what-img {
-    margin-bottom: 20px
+  margin-bottom: 20px;
+  text-align: center
 }
 
-.our-customer .single-customer .what-cap h4 a {
-    font-size: 20px;
-    color: #712fda;
-    margin-bottom: 20px
+.our-customer .single-customer .what-cap h5 {
+  font-size: 19px;
+  color: #712fda;
+  text-align: center
+}
+
+.our-customer .single-customer .what-cap p {
+  text-align: center;
+  background: #f5eaf9;
+  padding: 15px 20px 15px 15px;
+  border-left:2px solid #222
 }
 
 @media (max-width:767px) {
-    .our-customer .single-customer .what-cap h4 a {
-        font-size: 17px
-    }
+  .our-customer .single-customer .what-cap h5 {
+    font-size: 17px
+  }
 }
 
 .our-customer .single-customer .what-cap h4 a:hover {
-    color: #8f1bdc
+  color: #8f1bdc
 }
 
 @media (max-width:767px) {
-    .our-customer .single-customer .what-cap p {
-        font-size: 15px
-    }
+  .our-customer .single-customer .what-cap p {
+    font-size: 15px
+  }
 }
 
 .our-customer .slick-arrow {
