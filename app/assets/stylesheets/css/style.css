@@ -6890,6 +6890,7 @@ z .slider-area .hero-cap h2 {
   top:0;
   width:100%;
   z-index:10000;
+  right: 0%;
 }
 .hover_bkgr_fricc .helper{
   display:inline-block;
@@ -6898,15 +6899,75 @@ z .slider-area .hero-cap h2 {
 }
 .hover_bkgr_fricc > div {
   background-color: #fff;
-  box-shadow: 10px 10px 60px #555;
+  box-shadow: 10px 10px 60px #c0392b;
   display: inline-block;
   height: auto;
-  max-width: 551px;
+  max-width: 850px;
   min-height: 100px;
   vertical-align: middle;
   width: 60%;
   position: relative;
-  border-radius: 8px;
+  border-radius: 35px;
+  padding: 15px 5%;
+}
+.hover_bkgr_fricc2{
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  top:0;
+  width:100%;
+  z-index:10000;
+  right: 0%;
+}
+.hover_bkgr_fricc2 .helper{
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+.hover_bkgr_fricc2 > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #c0392b;
+  display: inline-block;
+  height: auto;
+  max-width: 850px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 35px;
+  padding: 15px 5%;
+}
+.hover_bkgr_fricc3{
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  top:0;
+  width:100%;
+  z-index:10000;
+  right: 0%;
+}
+.hover_bkgr_fricc3 .helper{
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+.hover_bkgr_fricc3 > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #c0392b;
+  display: inline-block;
+  height: auto;
+  max-width: 850px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 35px;
   padding: 15px 5%;
 }
 .popupCloseButton {
@@ -6919,7 +6980,7 @@ z .slider-area .hero-cap h2 {
   font-weight: bold;
   position: absolute;
   top: -20px;
-  right: -20px;
+  right: 92%;
   font-size: 25px;
   line-height: 30px;
   width: 30px;
@@ -6930,6 +6991,20 @@ z .slider-area .hero-cap h2 {
   background-color: #ccc;
 }
 .trigger_popup_fricc {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+.trigger_popup_fricc2 {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+.trigger_popup_fricc3 {
   cursor: pointer;
   font-size: 20px;
   margin: 20px;
