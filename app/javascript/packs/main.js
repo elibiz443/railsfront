@@ -257,7 +257,7 @@ $.scrollUp({
   animation: 'fade', // Fade, slide, none
   animationInSpeed: 200, // Animation in speed (ms)
   animationOutSpeed: 200, // Animation out speed (ms)
-  scrollText: 'UP', // Text for element
+  scrollText: "↑", // Text for element
   activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
 
